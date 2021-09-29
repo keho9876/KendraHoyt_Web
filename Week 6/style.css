@@ -1,0 +1,58 @@
+body{
+  padding: 0px;
+  margin: 0px;
+}
+
+p{
+  color: rgb(30,120,210);
+  font-family: "helvetica"
+}
+
+h1, h2 {
+  font-family: "Poppins";
+}
+
+#hero {
+width:100vw;
+height: 80vh;
+overflow: hidden;
+margin: 0px;
+padding: 0px;
+}
+
+#heroimg{
+  width: 100vw;
+  position: relative;
+  bottom: 200px;
+}
+
+#hero h1{
+  z-index:  1;
+  position: relative;
+  font-size: 5vw;
+  top: 5vh;
+  margin: 0 0 0 15vw;
+}
+
+#one, #two, #three{
+  margin-left: 15vw;
+  margin-right: 7vw;
+}
+
+button{
+  background-color: rgb(160,150,210);
+  font-family: "Poppins";
+  border-radius: 10px;
+  font-size: 15px;
+  margin: 10px;
+  padding: 7px 15px;
+}
+
+#Mybutton2{
+  background-color: rgb(120,220,210);
+  font-family: "Poppins";
+  border-radius: 10px;
+  font-size: 15px;
+  margin: 10px;
+  padding: 7px 15px;
+}

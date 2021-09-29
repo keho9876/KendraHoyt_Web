@@ -4,17 +4,22 @@
 <head>
   <title>If You Build It, They Will Build It</title>
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Contrail+One|Open+Sans+Condensed|Barlow">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Contrail+One">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow">
 </head>
 
 <body>
   <section id="top">
     <h1>Inspiration for my Website Styling</h1>
-      <h3>Updated Figma Screenshot</h3>
-      <img src="screenshot.png" style="width:50vw" alt="Screenshot of sample Stlye"/>
   </section>
 
-  <section id="fonts"> 
+  <section id="figma">
+      <h4>Updated Figma Screenshot</h4>
+      <img src="figmashot.png" style="width:50vw" alt="Screenshot of sample Stlye"/>
+  </section>
+
+  <section id="fonts">
       <hr id="first">
       <h4>Fonts</h4>
         <p> My header font is called Contrail One.</p>
@@ -25,29 +30,30 @@
   <section id="color">
     <hr id="second">
     <h4>I will be using a color pallete of 5 colors.</h4>
-      <ul id="box"><strong>
-        <li class="c1">Color 1: rgb(242,121,143)</li>
-        <li class="c2">Color 2: rgb(242,92,147)</li>
-        <li class="c3">Color 3: rgb(36,28,64)</li>
-        <li class="c4">Color 4: rgb(242,232,220)</li>
-        <li class="c5">Color 5: rgb(242,187,187)</li>
-      </strong></ul>
+      <ul id="box">
+        <li class="c1"><p><u>Color 1: rgb(242,121,143)</u></p></li>
+        <li class="c2"><p><u>Color 2: rgb(242,92,147)</u></p></li>
+        <li class="c3"><p><u>Color 3: rgb(36,28,64)</u></p></li>
+        <li class="c4"><p><u>Color 4: rgb(242,232,220)</u></p></li>
+        <li class="c5"><p><u>Color 5: rgb(242,187,187)</u></p></li>
+        <li class="c6"><p><u>Color 6: rgb(91,133,170)</u></p></li>
+      </ul>
   </section>
 
   <section id="links">
     <hr id="third">
     <h4>My links</h4>
       <p>The font for my links will be the same as my labels: Barlow</p>
-      <ul><u>
-        <li>The original state will be black</li>
-        <li class="c1">The hover state will be color 1</li>
-        <li><strong>The clicked state will be bolded black.</strong></li>
-      </u></ul>
+      <ul>
+        <li><p>The original state will be black</p></li>
+        <li class="c1"><p>The hover state will be color 1</p></li>
+        <li><p><strong>The clicked state will be bolded black.</strong></p></li>
+      </ul>
       <p>They will all be underlined!</p>
   </section>
 
   <section id="buttons">
-    <hr id="first">
+    <hr id="first1">
     <h4>My Buttons</h4>
       <p>My site will have a button with three different states of style.</p>
         <ul>
@@ -56,11 +62,14 @@
           <li>The final state is <span class="c4">color 4</span> and the text color as <span class="c2">color 2.</span></li>
         </ul>
       <p>Within the button, all text will be consistant and its font called Open Sans Condensed.</p>
-      <img src="buttonstate.png" style="width:35vw" alt="Screenshot of sample Button"/>
+      <img src="buttonstate.png" style="width:25vw" alt="Screenshot of sample Button"/>
+        <button  id="b1">Button</button>
+        <button id="b2">Thinking Bout It</button>
+        <button id="b3">Clicked</button>
   </section>
 
   <section id="textinput">
-    <hr id="second">
+    <hr id="second2">
     <h4>My Text Input</h4>
       <p>My text input will use 3 colors from my pallete, one as the background, another as the inner boarder, and lastly for the text and icon. The text font is called Open Sans Condensed</p>
         <ul>
@@ -70,20 +79,21 @@
         </ul>
       <img src="textinput.png" style="width:35vw" alt="Screenshot of sample of Text Input"/>
   </section>
-  <section id="form">
-    <form>
-      <label for="text" class="font"> Enter Text Here</label>
-      <input type="text" Enter="text">
+
+  <section id="text">
+    <form class="border">
+      <label for="name">Enter Text</label>
+      <input type="text" name="name">
     </form>
   </section>
 
   <section id="bottom">
-    <hr id="third">
-    <p><a href="#top" > To Top</a></p>
-    <p><a href="#color" > To Color</a></p>
-    <p><a href="#links" > To Links</a></p>
-    <p><a href="#button" > To Button</a></p>
-    <p><a href="#textinput" > To Text Input</a></p>
+    <hr id="third3">
+    <p><a href="#top"> To Top</a></p>
+    <p><a href="#color"> To Color</a></p>
+    <p><a href="#links"> To Links</a></p>
+    <p><a href="#button"> To Button</a></p>
+    <p><a href="#textinput"> To Text Input</a></p>
   </section>
   </body>
 

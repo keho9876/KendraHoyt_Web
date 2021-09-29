@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Week 6</title>
+   <link rel="stylesheet" href="style.css">
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+  </head>
+
+<body>
+  <section id="hero">
+    <h1 id="header">This is my Week 6 Page</h1>
+    <img alt="My mom, sister and I walking to the bus stop in Elementary school." src="momkt.jpg" id="heroimg">
+  </section>
+
+  <section id="one">
+    <h2>This is my <span id="firstsection">first section!</span></h2>
+      <p>We are learning about the DOM. The DOM is essentually everythingon a website; HTML, CSS, Assests, etc.</p>
+  </section>
+
+  <section id="two">
+    <h2>This is my second section!</h2>
+      <p>Filler Text</p>
+  </section>
+
+<section id="three">
+    <h2>This is my first section!</h2>
+      <p>This section contains a button</p>
+        <button id="Mybutton">Click This Button</button>
+        <button id="Mybutton2">Click This Button</button>
+  </section>
+
+  <script>
+    console.log("JavaScript Working");
+    document.getElementById("Mybutton").addEventListener("click", buttonOne);
+    document.getElementById("Mybutton2").addEventListener("click",buttonClicked);
+    document.getElementById("Hero").addEvetnListener("click",heroClicked);
+
+      function buttonClicked(){
+        alert("You Pushed the Button!");
+        document.getElementById("header").innerHTML = "Y ou Are Not Welcome";
+      }
+
+      function heroClicked(){
+        alert("You Clicked the Hero!");
+      }
+
+      function buttonOne(){
+        alert("button Pressed");
+         document.getElementById("firstsection").style.color = "red";
+         document.getElementById("three").style.backgroundColor ="skyblue";
+      }
+
+    </script>
+
+  </body>
+
+</html>
