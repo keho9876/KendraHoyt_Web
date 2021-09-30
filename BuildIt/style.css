@@ -18,7 +18,7 @@ img{
   margin-right:auto;
 }
 
-h4{
+h2{
   font-family:"Contrail One";
   font-size:30px;
 }
@@ -116,10 +116,10 @@ ul{
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 30px;
-  margin-right: 600px;
+  padding-right: 460px; 
   font-family:'Open Sans Condensed';
   font-size: 28px;
-  margin: 10px;
+  margin: 5px 15px;
 }
 
 .border{
@@ -129,11 +129,10 @@ ul{
   border-left: solid rgb(36,28,64) 2.5px;
   border-bottom: solid rgb(36,28,64) 2.5px;
   border-right: solid rgb(36,28,64) 2.5px;
-  margin-left: 5px;
+  margin-left: 15px;
   margin-top: 10px;
   margin-bottom: 10px;
   margin-right: 10px;
-  padding: 3px 10px;
 }
 
 #bottom{
