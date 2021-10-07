@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>JaveScript 1</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Asap+Condensed&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Asap+Condensed&family=Tajawal&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <section id="intro">
+    <h1>Including Interactions to My Site</h1>
+      <hr id="border">
+    </section>
+
+  <section id="start">
+    <p>For this assignment I will be creating a questionair! Please answer all the questions to your best ability.</p>
+  </section>
+
+  <section id="input">
+    <form class="textinput">
+      <label for="fname"> First Name:</label>
+      <input type="text" id="name">
+      <label for="lname"> Last Name:</label>
+      <input type="text" id="name">
+    </form>
+  </section>
+
+  <section id="next">
+    <form method="get" action="second.html">
+      <button id="button1">Next</button>
+    </form>
+  </section>
+
+  <script>
+    console.log("JavaScript Working");
+      document.getElementById("button1").addEventListener("click", buttonOne);
+      document.getElementById("button2").addEventListener("click", buttonTwo);
+      document.getElementById("button3").addEventListener("click", buttonThree);
+
+      function buttonOne(){
+        alert("Are you sure?");
+        document.getElementById("second.html").addEventListener();
+      }
+
+      function buttonTwo(){
+        alert("Are you sure?");
+        document.getElementById("third.html").addEventListener();
+      }
+
+      function buttonThree(){
+        alert("Are you sure?");
+        document.getElementById("fourth.html").addEventListener();
+      }
+
+  </script>
+
+  </body>
+
+</html>

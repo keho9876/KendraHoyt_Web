@@ -1,0 +1,79 @@
+h1{
+  font-family:"Archivo Black";
+  font-size: 48px;
+  text-align: center;
+  color: rgb(206,66,87);
+}
+
+#border{
+  border:solid rgb(114,0,38) 2px;
+}
+
+p{
+  font-family:"Asap Condensed";
+  font-size: 32px;
+  text-align: center;
+  color: rgb(255,127,81);
+}
+
+form{
+  margin: auto;
+  text-align: center;
+}
+
+ #input{
+   font-family:"Tajawal";
+   font-size: 24px;
+   text-align: center;
+   color: rgb(79,0,11);
+ }
+
+.textinput{
+  background-color: rgb(255,155,84);
+  margin:120px 180px 50px 180px;
+  padding: 15px;
+  border-radius: 10px;
+  border: Solid rgb(114,0,38) 2px;
+}
+
+button{
+  background-color: rgb(234,242,124);
+  font-family: "Asap Condensed";
+  border-radius: 13px;
+  font-size: 30px;
+  margin: 15px 600px;
+  padding: 2px 50px;
+}
+
+button:hover{
+  background-color: rgb(234,242,124);
+  margin: 2px 590px;
+  padding: 4px 60px;
+}
+
+button:active{
+  background-color: rgb(192,183,177);
+  color: rgb(234,242,124);
+  margin: 5px 600px;
+  padding: 2px 50px;
+}
+
+#icream{
+  border: Solid rgb(114,0,38) 2px;
+  margin: 50px;
+}
+
+h2{
+  font-family:"Archivo Black";
+  font-size: 36px;
+  text-align: center;
+  color: rgb(206,66,87);
+}
+
+.textinput2{
+  background-color: rgb(255,155,84);
+  margin:50px 160px 50px 160px;
+  padding: 15px;
+  border-radius: 10px;
+  border: Solid rgb(114,0,38) 2px;
+}
