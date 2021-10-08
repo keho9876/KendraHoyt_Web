@@ -11,18 +11,19 @@
 
 <body>
   <section id="animals">
-    <h2>Section Two</h2>
+    <h2>Section Two - ANIMALS</h2>
 
   <section id="input">
   <form class="textinput2">
-    <label for="answer"> What would you consider your spirit animal to be?</label>
+    <label id="answer"> What would you consider your spirit animal to be?</label>
     <input type="text" id="spirit">
   </form>
 
   <form class="textinput2">
-    <label for="answer2">Do you have any pets?</label>
+    <label id="answer2">Do you have any pets? If so, what is there name?</label>
     <input type="text" id="pet">
   </form>
+  </section>
 
   <form class="textinput2">
     <input type="radio" id="Dog" name="Dog"><label for="Dog">Dog</label>
@@ -30,15 +31,16 @@
     <input type="radio" id="Chicken" name="Chicken"><label for="Chicken">Chicken</label>
     <input type="radio" id="Horse" name="Horse"><label for="Horse">Horse</label>
     <input type="radio" id="Other" name="Other"><label for="Other">Other</label>
-</section>
+  </form>
 
-<section id="next3">
+<section id="next">
   <form method="get" action="fourth.html">
-    <button id="button3">Next</button>
+    <button onclick="buttonThree()" id="button3">Next</button>
   </form>
 </section>
-</section> 
+</section>
 
+<script src="script.js"></script>
 
   </body>
 </html>

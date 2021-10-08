@@ -47,6 +47,11 @@ button:active{
   margin: 50px;
 }
 
+#hobbies{
+  border: Solid rgb(114,0,38) 2px;
+  margin: 50px;
+}
+
 h2{
   font-family:"Archivo Black";
   font-size: 36px;

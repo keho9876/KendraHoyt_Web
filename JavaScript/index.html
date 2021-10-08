@@ -23,40 +23,19 @@
   <section id="input">
     <form class="textinput">
       <label for="fname"> First Name:</label>
-      <input type="text" id="name">
+      <input type="text" id="fname">
       <label for="lname"> Last Name:</label>
-      <input type="text" id="name">
+      <input type="text" id="lname">
     </form>
   </section>
 
   <section id="next">
     <form method="get" action="second.html">
-      <button id="button1">Next</button>
+      <button onclick="buttonOne()" id="button1">Next</button>
     </form>
   </section>
 
-  <script>
-    console.log("JavaScript Working");
-      document.getElementById("button1").addEventListener("click", buttonOne);
-      document.getElementById("button2").addEventListener("click", buttonTwo);
-      document.getElementById("button3").addEventListener("click", buttonThree);
-
-      function buttonOne(){
-        alert("Are you sure?");
-        document.getElementById("second.html").addEventListener();
-      }
-
-      function buttonTwo(){
-        alert("Are you sure?");
-        document.getElementById("third.html").addEventListener();
-      }
-
-      function buttonThree(){
-        alert("Are you sure?");
-        document.getElementById("fourth.html").addEventListener();
-      }
-
-  </script>
+<script src="script.js"></script>
 
   </body>
 
