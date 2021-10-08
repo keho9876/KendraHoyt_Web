@@ -25,6 +25,11 @@ console.log("JavaScript Working");
   }
 
   function buttonFive(){
+    alert("Are you sure?");
+//    document.getElementById("fourth.html").addEventListener();
+  }
+
+  function buttonSix(){
     alert("You are Awsome!");
 //    document.getElementById("fourth.html").addEventListener();
   }
