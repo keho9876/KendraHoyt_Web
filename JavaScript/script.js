@@ -10,22 +10,22 @@ console.log("JavaScript Working");
   }
 
   function buttonTwo(){
-    alert("Are you sure?");
+    alert("Are you ready to move on?");
   //  document.getElementById("third.html").addEventListener();
   }
 
   function buttonThree(){
-    alert("Are you sure?");
+    alert("Are you a 100% sure?");
 //    document.getElementById("fourth.html").addEventListener();
   }
 
   function buttonFour(){
-    alert("Are you sure?");
+    alert("How sure are you?");
 //    document.getElementById("fourth.html").addEventListener();
   }
 
   function buttonFive(){
-    alert("Are you sure?");
+    alert("Are you confident?");
 //    document.getElementById("fourth.html").addEventListener();
   }
 
