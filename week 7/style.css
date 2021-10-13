@@ -1,0 +1,61 @@
+body{
+  background-color: rgb(234,242,124);
+  margin-top: 140px;
+}
+
+h1{
+  font-family:"Archivo Black";
+  color: rgb(114,0,38);
+  font-size: 48px;
+  text-align: center;
+}
+
+h2{
+  border: Solid rgb(206,66,87) 2px;
+  margin: 70px 100px 70px 100px;
+  padding: 30px 70px 30px 70px;
+  font-family:"Tajawal";
+  font-size: 36px;
+  text-align: center;
+}
+
+button{
+  background-color: rgb(255,155,84);
+  color: rgb(114,0,38);
+  font-family: "Asap Condensed";
+  border-radius: 10px;
+  font-size: 24px;
+  margin-left: 44vw;
+  margin-top: 150px;
+  margin-bottom: 100px;
+  padding: 12px 50px;
+}
+
+h3{
+  border: Solid rgb(79,0,11) 2px;
+  margin-left: 190px;
+  margin-right: 190px;
+  padding: 10px;
+  font-family:"Tajawal";
+  font-size: 32px;
+  text-align: center;
+}
+
+h4{
+  margin: 70px 50px 70px 100px;
+  font-family:"Archivo Black";
+  font-size: 24px;
+  text-align: center;
+}
+
+p{
+  font-family:"Asap Condensed";
+  font-size: 20px;
+  text-align: center;
+}
+
+#selfcare{
+  border: Solid rgb(206,66,87) 7px;
+  margin: 10px 170px;
+  padding: 5px 70px;
+}

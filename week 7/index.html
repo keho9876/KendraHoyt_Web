@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Week 7</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Asap+Condensed&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Asap+Condensed&family=Tajawal:wght@200;300&display=swap" rel="stylesheet">
+  </head>
+
+<body>
+
+  <section>
+    <h1>Welcome to Kendra's Quote Machine!</h1>
+    <h2 id="quotetext">Click for a quote!</h2>
+    <button id="newquote">New Quote</button>
+  </section>
+
+  <section id="selfcare">
+    <h3>Self Care Menu</h3>
+      <h4>Moday</h4>
+        <p>20 minute Meditation, Walk neighbors dog, Call Dad, Yin Yoga</p>
+      <h4>Tuesday</h4>
+        <p>20 minute Meditation, Ski Team Workout, Shower: Hair mask, Light a candle</p>
+      <h4>Wednesday</h4>
+        <p>20 minute Meditation, Walk neighbors dog, Ski Team Workout, Shower: Shave</p>
+      <h4>Thursday</h4>
+        <p>20 minute Meditation, Watch movie with roommates, Light a candle</p>
+      <h4>Friday</h4>
+        <p>20 minute Meditation, Walk neighbors dog, Have sweet greens for lunch</p>
+      <h4>Saturday</h4>
+        <p>20 minute Meditation, Cook a yummy breakfast, 30 minute sketchbook work, Trail Run</p>
+        <h4>Sunday</h4>
+        <p>20 minute Meditation, Plan out next weeks schedule, Face mask and paint nails, Light a candle</p>
+  </section>
+
+<script>
+  const quotes = ["The way to get started is to quit talking and begin doing.", "If you look at what you have in life, you'll always have more. If you look at what you don't have in life, you'll never have enough.","Don't judge each day by the harvest you reap but by the seeds that you plant.","The best and most beautiful things in the world cannot be seen or even touched — they must be felt with the heart.","You have brains in your head. You have feet in your shoes. You can steer yourself any direction you choose.","The only impossible journey is the one you never begin.","The greatest glory in living lies not in never falling, but in rising every time we fall.","That which does not kill us makes us stronger","If you cannot do great things, do small things in a great way.","Do not let what you cannot do interfere with what you can do.","The best way to predict the future is to invent it.","Change your thoughts and you change your world.","Happiness is not something ready made. It comes from your own actions."];
+  let quotecounter = 0;
+
+  document.getElementById("newquote").addEventListener("click", buttonClicked);
+
+    function buttonClicked(){
+      console.log(quotes[quotecounter]);
+      document.getElementById("quotetext").innerHTML = quotes[quotecounter];
+
+        if (quotecounter >=  12) {
+          quotecounter = 0;
+        } else {
+          quotecounter++;
+        }
+    }
+
+  </script>
+
+</body>
+  </html>
