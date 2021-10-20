@@ -1,0 +1,36 @@
+body{
+  background-color: rgb(240, 239, 235);
+}
+
+div{
+   background-color: rgb(214, 226, 233);
+}
+
+#pets{
+  display: flex;
+}
+
+.options{
+  flex-grow: 1;
+  width: auto;
+  margin: 3vw;
+}
+
+img{
+  max-width: 20vw;
+  height: 30vh;
+  width: 30vw;
+  object-fit; cover;
+  padding: 42px;
+}
+
+button{
+  float: right;
+  padding: 10px 50px;
+  margin-right: 5vw;
+}
+
+.pink{
+  background-color: rgb(253, 226, 228);
+  color: rgb(153, 193, 222);
+}

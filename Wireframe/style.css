@@ -1,0 +1,218 @@
+#head{
+  text-align: center;
+    border: solid rgb(254,197,187) 3px;
+    margin: 20px 30px;
+}
+
+#colortext{
+  border: solid rgb(254,197,187) 3px;
+  margin: 20px 30px;
+  text-align: center;
+}
+
+h1{
+  font-family: "Titan One";
+  font-size: 52px;
+}
+
+h2{
+  font-family: "Titan One";
+  font-size: 48px;
+}
+
+h3{
+  font-family: "Titan One";
+  font-size: 44px;
+}
+
+h4{
+  font-family: "Titan One";
+  font-size: 40px;
+}
+
+h5{
+  font-family: "Titan One";
+  font-size: 36px;
+}
+
+h6{
+  font-family: "Titan One";
+  font-size: 32px;
+}
+
+#color{
+  display: flex;
+}
+
+div{
+  background-color: rgb(214, 226, 233);
+  margin: 20px 30px;
+}
+
+.c1{
+  flex-grow: 1;
+  width: auto;
+  background-color: rgb(254,197,187);
+  text-align: center;
+}
+
+.c2{
+  flex-grow: 1;
+  width: auto;
+  background-color: rgb(252,213,206);
+  text-align: center;
+}
+
+.c3{
+  flex-grow: 1;
+  width: auto;
+  background-color: rgb(250,225,221);
+  text-align: center;
+}
+
+.c4{
+  flex-grow: 1;
+  width: auto;
+  background-color: rgb(248,237,235);
+  text-align: center;
+}
+
+.c5{
+  flex-grow: 1;
+  width: auto;
+  background-color: rgb(232,232,228);
+  text-align: center;
+}
+
+.c6{
+  flex-grow: 1;
+  width: auto;
+  background-color: rgb(216,226,220);
+  text-align: center;
+}
+
+.c7{
+  flex-grow: 1;
+  width: auto;
+  background-color: rgb(236,228,219);
+  text-align: center;
+}
+
+.c8{
+  flex-grow: 1;
+  width: auto;
+  background-color: rgb(255,229,217);
+  text-align: center;
+}
+
+.c9{
+  flex-grow: 1;
+  width: auto;
+  background-color: rgb(255,215,186);
+  text-align: center;
+}
+
+.c10{
+  flex-grow: 1;
+  width: auto;
+  background-color: rgb(254,200,154);
+  text-align: center;
+}
+
+#label{
+  text-align: center;
+  font-family: "Courgette";
+  font-size: 24px;
+}
+
+p{
+  text-align: center;
+  font-family: "Quicksand";
+  font-size: 18px;
+}
+
+#button{
+  border: solid rgb(254,197,187) 3px;
+  margin: 30px 30px;
+}
+
+#bton{
+  text-align: center;
+  font-family: "Titan One";
+}
+
+#monday{
+background-color: rgb(248,237,235);
+font-family: "Courgette";
+font-size: 24px;
+border:solid rgb(255,215,186) 5px;
+padding: 15px 36px;
+}
+
+#tuesday{
+background-color: rgb(252,213,206);
+font-family: "Courgette";
+font-size: 24px;
+border:solid rgb(232,232,228) 5px;
+padding: 15px 36px;
+}
+
+#wednesday{
+background-color: rgb(236,228,219);
+font-family: "Courgette";
+font-size: 24px;
+border:solid rgb(254,200,154) 5px;
+padding: 15px 36px;
+}
+
+#thursday{
+background-color: rgb(216,226,220);
+font-family: "Courgette";
+font-size: 24px;
+border:solid rgb(252,213,206) 5px;
+padding: 15px 36px;
+}
+
+#friday{
+background-color: rgb(255,229,217);
+font-family: "Courgette";
+font-size: 24px;
+border:solid rgb(254,197,187) 5px;
+padding: 15px 36px;
+}
+
+#saturday{
+background-color: rgb(255,215,186);
+font-family: "Courgette";
+font-size: 24px;
+border:solid rgb(232,232,228) 5px;
+padding: 15px 36px;
+}
+
+#sunday{
+background-color: rgb(232,232,228);
+font-family: "Courgette";
+font-size: 24px;
+border:solid rgb(254,197,187) 5px;
+padding: 15px 36px;
+}
+
+#sect{
+background-color: rgb(216,226,220);
+border: solid rgb(248,237,235) 5px;
+margin: 50px 120px;
+padding: 50px 40px;
+}
+
+#label2{
+  font-family: "Courgette";
+  font-size: 24px;
+  text-align: center;
+}
+
+#sect2{
+background-color: rgb(250,225,221);
+border: solid rgb(255,215,186) 5px;
+margin: 50px 120px;
+padding: 50px 40px;
+}
