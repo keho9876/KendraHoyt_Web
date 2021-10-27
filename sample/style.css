@@ -1,0 +1,47 @@
+#tabs{
+  display:flex;
+  margin: 15vh 10vw 0 10vw;
+}
+
+#items{
+  display:flex;
+  margin: 0vh 10vw 0 10vw;
+  padding-top: 70px;
+  border: solid black 1px;
+}
+
+.day{
+  flex-grow: 1;
+  background-color: rgb(254,197,187);
+  width: auto;
+  border: solid black 1px;
+}
+
+#image, .weekday{
+  flex-grow: 1;
+  width: auto;
+  /* background-color: rgb(254,197,187); */
+  max-width: 50%;
+}
+
+h2{
+  margin-top: 40px;
+  padding-bottom: 0;
+  font-size: 1.8em;
+}
+
+#day2, #day3{
+   display: none;
+}
+
+.active{
+  background-color: rgb(236,228,219);
+}
+
+img{
+  max-width: 80%;
+  max-height: 80%;
+  object-fit: cover;
+  display: block;
+  margin:auto;
+}

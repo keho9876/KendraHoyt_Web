@@ -36,7 +36,7 @@ h2{
 
 h3, h4{
   padding-right: 300px;
-  padding-left: 
+  padding-left:
 }
 
 #lunchmenu, #dinnermenu{
@@ -46,7 +46,6 @@ h3, h4{
 .active{
   background-color: rgb(165, 165, 141);
   border-bottom: none;
-
 }
 
 img{
