@@ -1,0 +1,93 @@
+body{
+  background-color: rgb(236,228,219);
+}
+
+#start{
+  border: solid rgb(250,225,221) 10px;
+  border-radius: 7px;
+  background-color: rgb(216,226,220);
+  margin: 100px 55px 0 55px;
+  padding-bottom: 75px;
+  text-align: center;
+}
+
+h1, #intro{
+  font-family: "Titan One";
+  font-size: 58px;
+}
+
+h4{
+  font-family: "Quicksand";
+  font-size: 28px;
+}
+
+button{
+font-family: "Courgette";
+font-size: 30px;
+margin-top: 175px;
+background-color: rgb(254,197,187);
+border: solid rgb(250,225,221) 5px;
+border-radius: 10px;
+padding: 10px 35px;
+}
+
+
+
+
+#tabs{
+  display:flex;
+  margin: 10vh 12vw 0 12vw;
+}
+
+#mday{
+  display:flex;
+  margin: 0vh 12vw 0 12vw;
+  padding-top: 70px;
+  background-color: rgb(254,197,187);
+  border: solid black 1px;
+}
+
+.day{
+  flex-grow: 1;
+  background-color: rgb(254,197,187);
+  width: auto;
+  border: solid black 1px;
+}
+
+#tday{
+  display:flex;
+  margin: 0vh 12vw 0 12vw;
+  padding-top: 70px;
+  background-color: rgb(255,215,186);
+  border: solid black 1px;
+}
+
+#wday{
+  display:flex;
+  margin: 0vh 12vw 0 12vw;
+  padding-top: 70px;
+}
+
+#thday{
+  display:flex;
+  margin: 0vh 12vw 0 12vw;
+  padding-top: 70px;
+}
+
+#fday{
+  display:flex;
+  margin: 0vh 12vw 0 12vw;
+  padding-top: 70px;
+}
+
+#saday{
+  display:flex;
+  margin: 0vh 12vw 0 12vw;
+  padding-top: 70px;
+}
+
+#sday{
+  display:flex;
+  margin: 0vh 12vw 0 12vw;
+  padding-top: 70px;
+}
