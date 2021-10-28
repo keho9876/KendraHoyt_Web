@@ -4,7 +4,7 @@ let images = ["monday.jpg","tuesday.jpg","wednesday.jpg","thursday.jpg","friday.
 // let quotes = ["quote0","quote1","quote3","quote4","quote5","quote6"];
 // let texts = ["text0","text1","text3","text4","text5","text6"];
 let prevday;
-let colorArray = ["rgb(254,197,187)","rgb(255,215,186)","rgb(216,226,220)","rgb(236,228,219)","rgb(250,225,221)","rgb(254,200,154)","rgb(236,228,219)"]
+// let colorArray = ["rgb(254,197,187)","rgb(255,215,186)","rgb(216,226,220)","rgb(236,228,219)","rgb(250,225,221)","rgb(254,200,154)","rgb(236,228,219)"]
 
 for(i=0; i<document.getElementsByClassName("day").length; i++){
   document.getElementsByClassName("day")[i].innerHTML = "<h2>" + days[i] + "</h2>";
