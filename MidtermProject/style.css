@@ -116,7 +116,15 @@ h2{
   display: block;
 }
 
-#Tuesdayday, #Wednesdayday{
+#Tuesdayday{
+  margin-bottom: 25px;
+  background-color: rgb(230, 190, 174);
+  border: solid rgb(255,229,217) 1px;
+  border-radius: 12px;
+  display: none;
+}
+
+#Wednesdayday{
   margin-bottom: 25px;
   background-color: rgb(230, 190, 174);
   border: solid rgb(255,229,217) 1px;
