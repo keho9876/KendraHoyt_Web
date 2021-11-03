@@ -9,7 +9,7 @@ for(i=0; i<document.getElementsByClassName("day").length; i++){
 }
 
 document.getElementById('monday').classList.toggle('active');
-document.getElementById("image").innerHTML = "<img src='assets/" + images[0] + "'>";
+document.getElementById("image").innerHTML = "<img src='MidtermProject/assets/" + images[0] + "'>";
 
 function setActive(e){
 
