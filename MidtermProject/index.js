@@ -3,13 +3,13 @@ let images = ["monday.jpg","tuesday.jpg","wednesday.jpg","thursday.jpg","friday.
 let prevday;
 
 for(i=0; i<document.getElementsByClassName("day").length; i++){
-  document.getElementsByClassName('day')[i].innerHTML = "<h2>" + days[i] + "</h2>";
+  document.getElementsByClassName("day")[i].innerHTML = "<h2>" + days[i] + "</h2>";
   document.getElementsByClassName("day")[i].addEventListener('click', setActive, false);
   document.getElementsByClassName("day")[i].id = days[i];
 }
 
-document.getElementById('monday').classList.toggle('active');
-document.getElementById("image").innerHTML = "<img src='MidtermProject/assets/" + images[0] + "'>";
+document.getElementById('Monday').classList.toggle('active');
+document.getElementById("image").innerHTML = "<img src='assets/" + images[0] + "'>";
 
 function setActive(e){
 
