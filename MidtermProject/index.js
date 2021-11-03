@@ -1,5 +1,5 @@
 let days = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
-let images = ["Monday.jpg","Tuesday.jpg","Wednesday.jpg","Thursday.jpg","Friday.jpg","Saturday.jpg","Sunday.jpg"];
+let images = ["monday.jpg","tuesday.jpg","wednesday.jpg","thursday.jpg","friday.jpg","saturday.jpg","sunday.jpg"];
 let prevday;
 
 for(i=0; i<document.getElementsByClassName("day").length; i++){
@@ -8,7 +8,7 @@ for(i=0; i<document.getElementsByClassName("day").length; i++){
   document.getElementsByClassName("day")[i].id = days[i];
 }
 
-document.getElementById('Monday').classList.toggle('active');
+document.getElementById('monday').classList.toggle('active');
 document.getElementById("image").innerHTML = "<img src='assets/" + images[0] + "'>";
 
 function setActive(e){
