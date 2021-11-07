@@ -1,69 +1,134 @@
+@media screen and (min-width:800px){
+ #kenny{
+   display: Block;
+ }
+}
+
+@media screen and (max-width:801px){
+  #kenny{
+    display: none;
+  }
+}
+
 body{
   background-color:rgb(242,187,187);
 }
 
 #top h1{
   color:rgb(242,92,147);
+  font-family: "Quicksand";
   font-size: 40px;
   text-align: center;
 }
 
 #top h5{
   color:rgb(36,28,64);
-  font-family:Verdana;
+  font-family: "Verdana";
   font-size: 18px;
   text-align: center;
 }
 
-#top img{
-  width:40vw;
+nav{
+  display:flex;
+  width: 100vw;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 30px auto 30px;
+  text-align: center;
+}
+
+nav a{
+  font-family: "Quicksand";
+  font-size: 18px;
+  font-weight: 300;
+  margin: 7px 7px;
+  padding: 10px 20px;
+  text-decoration: none;
+  border: solid rgb(242,232,220) 3px;
+  border-radius: 7px;
+  color: rgb(36,28,64);
+}
+
+.active{
+  color: rgb(242,92,147)
+}
+
+
+#intro{
+  display: flex;
+  margin: 20px 170px;
+  border: solid rgb(36,28,64);
+  border-radius: 10px;
+  background-color: rgb(36,28,64);
+  padding: 20px 20px;
+}
+
+#intro img{
+  flex-grow: 1;
+  width:80%;
   display:block;
-  margin-left:auto;
   margin-right:auto;
 }
 
-#button h5{
-  border: solid 3px;
-  color:rgb(242,232,220);
+#intro p{
+  flex-grow: 1;
+  font-family: "Source Serif Pro";
   text-align: center;
-  margin-left: 400px;
-  margin-right: 400px;
+  font-size: 22px;
+  color:rgb(242,232,220);
+  padding: 30px 30px;
 }
 
-#intro{
-  font-family:Verdana;
-  text-align: center;
-  color:rgb(242,92,147);
+#facts{
+  display: grid;
+  margin:40px 100px;
+  padding: 20px 20px;
 }
 
 #facts h3{
-  font-family:Garamond;
+  font-family: "Quicksand";
   font-size: 28px;
-  margin-left:60px;
+  text-align: center;
   color:rgb(36,28,64);
 }
 
 #facts ul{
-  font-family:Verdana;
-  font-size:14px;
+  font-family: "Verdana";
+  font-size:18px;
   margin-left:80px;
+  margin-bottom: 50px;
   color:rgb(242,92,147);
 }
 
+#myimages{
+  border: solid rgb(36,28,64) 3px;
+  border-radius: 10px;
+  background-color: rgb(36,28,64);
+  padding: 20px 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 60vw;
+  margin: auto;
+ }
+
+ #myimages img{
+   object-fit: cover;
+   width:100%;
+   height: 100%;
+ }
+
+
 #goals h3{
-  font-family:Garamond;
+  text-align: center;
+  font-family: "Quicksand";
   font-size: 28px;
-  margin-left:60px;
   color:rgb(36,28,64);
 }
 
 #goals ol{
-  font-family:Verdana;
-  font-size: 14px;
-  margin-left:80px;
+  font-family: "Verdana";
+  font-size: 18px;
+  margin-left:250px;
+  margin-bottom: 150px;
   color:rgb(242,92,147);
 }
-
-
-  /* color:rgb(242,232,220); */
-    /* color:rgb(242,121,143); */
