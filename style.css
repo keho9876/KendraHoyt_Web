@@ -1,7 +1,15 @@
-@media screen and (max-width:600px){
+@media screen and (min-width:600px){
  .columns{
    flex: 100%;
    max-width: 100%;
+ }
+
+ #goals h3{
+   font-size: 22px;
+ }
+
+ #goals ol{
+   font-size: 22px;
  }
 }
 
@@ -9,6 +17,14 @@
   .columns{
     flex:50%;
     max-width:50%;
+  }
+
+  #goals h3{
+    font-size: 28px;
+  }
+
+  #goals ol{
+    font-size: 28px;
   }
 }
 
@@ -192,8 +208,7 @@ nav a{
 
 #goals{
   background-color: rgb(36,28,64,0.2);
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding: 10px;
   margin-left: 180px;
   margin-right: 180px;
 }
@@ -208,10 +223,8 @@ nav a{
 #goals ol{
   font-family: "Open Sans";
   font-size: 18px;
-  margin-left:250px;
-  /* margin-bottom: 50px; */
+  text-align: center;
   color: #393e65;
-  /* color:rgb(242,187,187); */
 }
 
 #portfolio{
