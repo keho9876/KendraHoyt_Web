@@ -145,8 +145,7 @@ nav a{
   background-color: rgb(36,28,64);
   padding: 20px 20px;
   display: grid;
-  grid-template-columns:(3, 1fr);
-  /* grid-template-rows:(2, 1fr); */
+  grid-template-columns:repeat(3, 1fr);
   width: 100vw;
   margin: auto;
  }
@@ -154,7 +153,6 @@ nav a{
  #stuff{
    display: grid;
    grid-template-columns: repeat(3, 1fr);
-   /* padding: 20px 20px; */
    margin: auto;
   }
 
@@ -266,8 +264,8 @@ nav a{
 }
 
 .column{
-  flex: 50%
-  max-width: 50%;
+  flex: 100%;
+  max-width: 100%;
   padding: 30px 30px;
 }
 
