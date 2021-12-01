@@ -1,0 +1,62 @@
+#body{
+  background-color: #F0EFEB;
+}
+
+#intro h1{
+  font-family: "Libre Baskerville";
+  font-size: 68px;
+  margin-left: 50px;
+  color: #2A2B2A;
+}
+
+#school{
+  flex-grow: 1;
+}
+
+#uni h4{
+  font-family: "Manrope";
+  font-size: 30px;
+  color: #626868;
+  margin-left: 210px;
+}
+
+#menu{
+  margin-left: 60px;
+  margin-top: 75px;
+}
+
+#menu nav{
+  border-bottom: solid #626868 1px;
+  margin-right: 540px;
+}
+
+#menu a{
+  font-family: "Manrope";
+  font-size: 24px;
+  color: #626868;
+  padding: 10px 40px;
+  text-decoration: none;
+}
+
+#about{
+}
+
+#about p{
+  margin-left:85px;
+  margin-top: 200px;
+  margin-right: 565px;
+  font-family: "Manrope";
+  font-size: 18px;
+  color: #2A2B2A;
+}
+
+#image{
+  flex-grow: 1;
+}
+
+ #image img{
+  flex-grow: 1;
+  width:20vw;
+  display:block;
+  margin: auto;
+ }
