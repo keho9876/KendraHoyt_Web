@@ -9,42 +9,59 @@
   color: #2A2B2A;
 }
 
-#school{
-  flex-grow: 1;
+h4{
+  font-family: "Manrope";
+  font-size: 28px;
+  color: #CB997E;
+  margin-left: 250px;
+  margin-top: 10px;
 }
 
-#uni h4{
-  font-family: "Manrope";
-  font-size: 30px;
-  color: #626868;
-  margin-left: 210px;
+#content{
+  display: flex;
+}
+
+#info{
+  flex-grow: 1;
 }
 
 #menu{
   margin-left: 60px;
-  margin-top: 75px;
+  margin-top: 100px;
 }
 
 #menu nav{
   border-bottom: solid #626868 1px;
-  margin-right: 540px;
+  margin-right: 130px;
+  margin-left: 30px;
 }
 
 #menu a{
   font-family: "Manrope";
-  font-size: 24px;
+  font-size: 18px;
   color: #626868;
-  padding: 10px 40px;
+  padding: 10px 38px;
   text-decoration: none;
 }
 
 #about{
+  display: flex;
 }
 
-#about p{
+#label p{
+  flex-grow: 1;
+  font-family: "Manrope";
+  font-size: 18px;
+  color: #CB997E;
+  margin-top: 200px;
+}
+
+#text p{
+  flex-grow: 4;
+  text-align: center;
   margin-left:85px;
   margin-top: 200px;
-  margin-right: 565px;
+  margin-right: 65px;
   font-family: "Manrope";
   font-size: 18px;
   color: #2A2B2A;
@@ -55,8 +72,1011 @@
 }
 
  #image img{
-  flex-grow: 1;
-  width:20vw;
+  /* flex-grow: 1; */
+  width:30vw;
   display:block;
   margin: auto;
+  padding-right: 50px;
  }
+
+ #more{
+   display: flex;
+   margin: 150px 120px 120px 120px;
+ }
+
+ #more p{
+   flex-grow: 4;
+   font-family: "Manrope";
+   font-size: 18px;
+   color: #2A2B2A;
+ }
+
+ #MORE p{
+   flex-grow:1;
+   font-family: "Manrope";
+   font-size: 18px;
+   color: #CB997E;
+ }
+
+ #introimgs{
+   background-color: #EDDCD2;
+ }
+
+ #introimgs h3{
+   padding: 100px;
+ }
+
+ #introimgs img{
+   margin-left: 20%;
+   padding: 80px;
+   width: 50vw;
+ }
+
+ #resdate{
+   background-color: #F0EFEB;
+ }
+
+ #resume{
+   background-color: #F0EFEB;
+ }
+
+ #res p{
+   font-family: "Manrope";
+   font-size: 14px;
+   margin-left: 80%;
+   padding-top: 20px;
+ }
+
+ #res h3{
+   font-family: "Manrope";
+   font-size: 24px;
+   margin-left: 20%;
+ }
+
+ #stuff{
+  background-color: #626868;
+  margin-left: 100px;
+  margin-right: 100px;
+ }
+
+ #stuff h2{
+   font-family: "Libre Baskerville";
+   font-size: 42px;
+   margin-left: 28%;
+   color: #DDBEA9;
+   padding: 20px;
+ }
+
+ #within{
+   display: flex;
+ }
+
+ #left{
+   flex-grow: 1;
+   padding-left: 55px;
+ }
+
+ #right{
+   flex-grow: 1;
+   margin-left: 20vw;
+   padding-right: 55px;
+ }
+
+#aboutme p{
+  font-family: "Manrope";
+  font-size: 20px;
+  color: #CB997E;
+}
+
+#tele p{
+  font-family: "Manrope";
+  font-size: 14px;
+  color: #FFF1E6;
+}
+
+#num p{
+  font-size: 14px;
+}
+
+#email p{
+  font-family: "Manrope";
+  font-size: 14px;
+  color: #FFF1E6;
+}
+
+#dres p{
+  font-size: 14px;
+}
+
+#address p{
+  font-family: "Manrope";
+  font-size: 14px;
+  color: #FFF1E6;
+}
+
+#place p{
+  font-size: 14px;
+}
+
+#education p{
+  font-family: "Manrope";
+  font-size: 20px;
+  color: #CB997E;
+}
+
+#twenthree p{
+  font-family: "Manrope";
+  font-size: 14px;
+  color: #FFF1E6;
+}
+
+#name p{
+  font-family: "Libre Baskerville";
+  font-size: 18px;
+  color: #DDBEA9;
+}
+
+#uni p{
+  font-family: "Manrope";
+  font-size: 14px;
+  color: #FFF1E6;
+}
+
+#eiwteen p{
+  font-family: "Manrope";
+  font-size: 14px;
+  color: #FFF1E6;
+}
+
+#name2 p{
+  font-family: "Libre Baskerville";
+  font-size: 18px;
+  color: #DDBEA9;
+}
+
+#high p{
+  font-family: "Manrope";
+  font-size: 14px;
+  color: #FFF1E6;
+}
+
+#swenteen p{
+  font-family: "Manrope";
+  font-size: 14px;
+  color: #FFF1E6;
+}
+
+#name3 p{
+  font-family: "Libre Baskerville";
+  font-size: 18px;
+  color: #DDBEA9;
+}
+
+#sumsum p{
+  font-family: "Manrope";
+  font-size: 14px;
+  color: #FFF1E6;
+}
+
+#skills p{
+  font-family: "Manrope";
+  font-size: 20px;
+  color: #CB997E;
+}
+
+#skill p{
+  font-family: "Manrope";
+  font-size: 14px;
+  color: #FFF1E6;
+}
+
+#extras p{
+  font-family: "Manrope";
+  font-size: 20px;
+  color: #CB997E;
+}
+
+#extra1 p{
+  font-family: "Manrope";
+  font-size: 14px;
+  color: #FFF1E6;
+}
+
+#extra2 p{
+  font-family: "Manrope";
+  font-size: 14px;
+  color: #FFF1E6;
+}
+
+#references p{
+  font-family: "Manrope";
+  font-size: 20px;
+  color: #CB997E;
+}
+
+#mary p{
+  font-family: "Libre Baskerville";
+  font-size: 18px;
+  color: #DDBEA9;
+}
+
+#numnum p{
+  font-family: "Manrope";
+  font-size: 14px;
+  color: #FFF1E6;
+}
+
+#job p{
+  font-family: "Manrope";
+  font-size: 14px;
+  color: #FFF1E6;
+}
+
+#tiff p{
+  font-family: "Libre Baskerville";
+  font-size: 18px;
+  color: #DDBEA9;
+}
+
+#numnum2 p{
+  font-family: "Manrope";
+  font-size: 14px;
+  color: #FFF1E6;
+}
+
+#job2 p{
+  font-family: "Manrope";
+  font-size: 14px;
+  color: #FFF1E6;
+}
+
+#laura p{
+  font-family: "Libre Baskerville";
+  font-size: 18px;
+  color: #DDBEA9;
+}
+
+#numnum3 p{
+  font-family: "Manrope";
+  font-size: 14px;
+  color: #FFF1E6;
+}
+
+#job3 p{
+  font-family: "Manrope";
+  font-size: 14px;
+  color: #FFF1E6;
+  margin-bottom: 100px;
+}
+
+#experience p{
+  font-family: "Manrope";
+  font-size: 20px;
+  color: #CB997E;
+}
+
+#yeear p{
+  font-family: "Manrope";
+  font-size: 14px;
+  color: #FFF1E6;
+}
+
+#como p{
+  font-family: "Libre Baskerville";
+  font-size: 18px;
+  color: #DDBEA9;
+}
+
+#idid p{
+  font-family: "Manrope";
+  font-size: 14px;
+  color: #FFF1E6;
+}
+
+#time p{
+  font-family: "Manrope";
+  font-size: 14px;
+  color: #FFF1E6;
+}
+
+#lacys p{
+  font-family: "Libre Baskerville";
+  font-size: 18px;
+  color: #DDBEA9;
+}
+
+#ido p{
+  font-family: "Manrope";
+  font-size: 14px;
+  color: #FFF1E6;
+}
+
+#when p{
+  font-family: "Manrope";
+  font-size: 14px;
+  color: #FFF1E6;
+}
+
+#sports p{
+  font-family: "Libre Baskerville";
+  font-size: 18px;
+  color: #DDBEA9;
+}
+
+#icould p{
+  font-family: "Manrope";
+  font-size: 14px;
+  color: #FFF1E6;
+}
+
+#here p{
+  font-family: "Manrope";
+  font-size: 14px;
+  color: #FFF1E6;
+}
+
+#sato p{
+  font-family: "Libre Baskerville";
+  font-size: 18px;
+  color: #DDBEA9;
+}
+
+#inever p{
+  font-family: "Manrope";
+  font-size: 14px;
+  color: #FFF1E6;
+}
+
+#rec{
+  Background-color: #DDBEA9;
+}
+
+#letter{
+  margin-left: 26vw;
+}
+
+#rap{
+  background-color: #F0EFEB;
+}
+
+#heading h1{
+  font-family: "Libre Baskerville";
+  font-size: 48px;
+  margin-left: 56vw;
+  padding-top: 80px;
+  color: #2A2B2A;
+}
+
+#heading p{
+  font-family: "Manrope";
+  font-size: 22px;
+  margin-left: 70vw;
+  color: #2A2B2A;
+}
+
+#menuu{
+  margin-left: 100px;
+  margin-right: 655px;
+  padding-bottom: 100px;
+}
+
+#menuu nav{
+border-bottom: solid #626868 1px;
+}
+
+#menuu a{
+font-family: "Manrope";
+font-size: 18px;
+color: #626868;
+padding: 10px 38px;
+text-decoration: none;
+}
+
+#twentyeighteen h1{
+  font-family: "Libre Baskerville";
+  font-size: 42px;
+  color: #FFF1E6;
+  margin-left: 50px;
+}
+
+#meenu{
+  margin-left: 100px;
+  margin-right: 655px;
+  padding-bottom: 100px;
+}
+
+#meenu nav{
+border-bottom: solid #FFF1E6 1px;
+}
+
+#meenu a{
+font-family: "Manrope";
+font-size: 18px;
+color: #FFF1E6;
+padding: 10px 38px;
+text-decoration: none;
+}
+
+#sf1{
+  font-family: "Libre Baskerville";
+  font-size: 30px;
+  color: #DDBEA9;
+  margin-left: 55vw;
+}
+
+#bigboy{
+  display: flex
+}
+
+#fall{
+  flex-grow: 1;
+}
+
+#fall p{
+  font-family: "Manrope";
+  font-size: 18px;
+  color: #CB997E;
+}
+
+#box2{
+  flex-grow: 6;
+  background-color: #FFF1E6;
+  margin-right: 100px;
+}
+
+#div1 h5{
+  font-family: "Manrope";
+  font-size: 20px;
+  color: #626868;
+}
+
+#div1 img{
+  width: 20vw;
+}
+
+#div1 p{
+  font-family: "Manrope";
+  font-size: 14px;
+  color: #2A2B2A;
+  padding: 50px;
+}
+
+#div2 h5{
+  font-family: "Manrope";
+  font-size: 20px;
+  color: #626868;
+}
+
+#div2 img{
+  width: 20vw;
+}
+
+#div2 h3{
+  font-family: "Manrope";
+  font-size: 18px;
+  color: #626868;
+}
+
+#div2 p{
+  font-family: "Manrope";
+  font-size: 14px;
+  color: #2A2B2A;
+  padding: 50px;
+}
+
+#div3 h5{
+  font-family: "Manrope";
+  font-size: 20px;
+  color: #626868;
+}
+
+#div3 img{
+  width: 20vw;
+}
+
+#div3 h3{
+  font-family: "Manrope";
+  font-size: 18px;
+  color: #626868;
+}
+
+#div4 h5{
+  font-family: "Manrope";
+  font-size: 20px;
+  color: #626868;
+}
+
+#div4 img{
+  width: 20vw;
+}
+
+#div3 p{
+  font-family: "Manrope";
+  font-size: 14px;
+  color: #2A2B2A;
+  padding: 50px;
+}
+
+#sf2{
+  font-family: "Libre Baskerville";
+  font-size: 30px;
+  color: #DDBEA9;
+  margin-left: 55vw;
+}
+
+#biggirl{
+  display: flex;
+}
+
+#spring{
+  flex-grow: 1;
+}
+
+#spring p{
+  font-family: "Manrope";
+  font-size: 18px;
+  color: #CB997E;
+}
+
+#box3{
+  flex-grow: 1;
+  background-color: #EDDCD2;
+  margin-right: 100px;
+  }
+
+  #div5 h5{
+    font-family: "Manrope";
+    font-size: 20px;
+    color: #626868;
+  }
+
+  #div5 img{
+    width: 20vw;
+  }
+
+  #div5 p{
+    font-family: "Manrope";
+    font-size: 14px;
+    color: #2A2B2A;
+    padding: 50px;
+  }
+
+    #box4{
+      background-color: #F0EFEB;
+      margin-right: 100px;
+      margin-left: 90px;
+      }
+
+    #div6 h5{
+      font-family: "Manrope";
+      font-size: 20px;
+      color: #626868;
+    }
+
+    #div6 img{
+      width: 20vw;
+    }
+
+    #div6 p{
+      font-family: "Manrope";
+      font-size: 14px;
+      color: #2A2B2A;
+      padding: 50px;
+    }
+
+    #box5{
+      background-color: #DDBEA9;
+      margin-right: 100px;
+      margin-left: 90px;
+      }
+
+      #div7 h5{
+        font-family: "Manrope";
+        font-size: 20px;
+        color: #626868;
+      }
+
+      #div7 img{
+        width: 20vw;
+      }
+
+      #div7 p{
+        font-family: "Manrope";
+        font-size: 14px;
+        color: #2A2B2A;
+        padding: 50px;
+      }
+
+      #box6{
+        background-color: #EDDCD2;
+        margin-right: 100px;
+        margin-left: 90px;
+        }
+
+        #div8 h5{
+          font-family: "Manrope";
+          font-size: 20px;
+          color: #626868;
+        }
+
+        #div8 img{
+          width: 20vw;
+        }
+
+        #div8 p{
+          font-family: "Manrope";
+          font-size: 14px;
+          color: #2A2B2A;
+          padding: 50px;
+        }
+
+#twentyninteen h1{
+  font-family: "Libre Baskerville";
+  font-size: 42px;
+  color: #626868;
+  margin-left: 50px;
+}
+
+#mennu{
+  margin-left: 100px;
+  margin-right: 655px;
+  padding-bottom: 100px;
+  }
+
+  #mennu nav{
+    border-bottom: solid #626868 1px;
+  }
+
+  #mennu a{
+    font-family: "Manrope";
+    font-size: 18px;
+    color: #626868;
+    padding: 10px 38px;
+    text-decoration: none;
+  }
+
+  #bd{
+    font-family: "Libre Baskerville";
+    font-size: 30px;
+    color: #CB997E;
+    margin-left: 55vw;
+  }
+
+  #bigteen{
+    display: flex;
+  }
+
+  #fall2{
+    flex-grow: 1;
+  }
+
+  #fall2 p{
+    font-family: "Manrope";
+    font-size: 18px;
+    color: #CB997E;
+  }
+
+  #box7{
+    flex-grow: 6;
+    background-color: #F0EFEB;
+    margin-right: 100px;
+    }
+
+    #box7 h5{
+      font-family: "Manrope";
+      font-size: 20px;
+      color: #626868;
+    }
+
+    #box7 img{
+      width: 50vw;
+    }
+
+
+#twentytwenty h1{
+  font-family: "Libre Baskerville";
+  font-size: 42px;
+  color: #DDBEA9;
+  margin-left: 50px;
+}
+
+/* #mennu{
+  margin-left: 100px;
+  margin-right: 655px;
+  padding-bottom: 100px;
+  }
+
+  #mennu nav{
+    border-bottom: solid #626868 1px;
+  }
+
+  #mennu a{
+    font-family: "Manrope";
+    font-size: 18px;
+    color: #626868;
+    padding: 10px 38px;
+    text-decoration: none;
+  } */
+
+  #da1{
+    font-family: "Libre Baskerville";
+    font-size: 30px;
+    color: #CB997E;
+    margin-left: 55vw;
+  }
+
+  #dt{
+    display: flex;
+  }
+
+  #link2class{
+    flex-grow: 1;
+  }
+
+  #link2class p{
+    font-family: "Manrope";
+    font-size: 18px;
+    color: #2A2B2A;
+  }
+
+  #dtwebsite{
+    flex-grow: 5;
+    Background-color: #CB997E;
+  }
+
+  #dtwebsite h4{
+    font-family: "Manrope";
+    font-size: 24px;
+    color: #FFF1E6;
+    border: solid #FFF1E6 1px;
+  }
+
+  #dtwebsite p{
+    font-family: "Manrope";
+    font-size: 18px;
+    color: #F0EFEB;
+  }
+
+  #df{
+    font-family: "Libre Baskerville";
+    font-size: 30px;
+    color: #CB997E;
+    margin-left: 55vw;
+  }
+
+  #tt{
+    display: flex;
+  }
+
+  #link2clapp{
+    flex-grow: 1;
+  }
+
+  #link2app p{
+    font-family: "Manrope";
+    font-size: 18px;
+    color: #2A2B2A;
+  }
+
+  #ttapp{
+    flex-grow: 5;
+    Background-color: #CB997E;
+  }
+
+  #ttapp h4{
+    font-family: "Manrope";
+    font-size: 24px;
+    color: #FFF1E6;
+    border: solid #FFF1E6 1px;
+  }
+
+  #ttapp p{
+    font-family: "Manrope";
+    font-size: 18px;
+    color: #F0EFEB;
+  }
+
+  #hc{
+    display: flex;
+    margin: 150px;
+  }
+
+  #link2hcapp{
+    flex-grow: 1;
+  }
+
+  #link2hcapp p{
+    font-family: "Manrope";
+    font-size: 18px;
+    color: #2A2B2A;
+  }
+
+  #hcapp{
+    flex-grow: 5;
+    Background-color: #CB997E;
+  }
+
+  #hcapp h4{
+    font-family: "Manrope";
+    font-size: 24px;
+    color: #FFF1E6;
+    border: solid #FFF1E6 1px;
+  }
+
+  #hcapp p{
+    font-family: "Manrope";
+    font-size: 18px;
+    color: #F0EFEB;
+  }
+
+  #cc{
+    display: flex;
+    margin: 150px;
+  }
+
+  #link2ccapp{
+    flex-grow: 1;
+  }
+
+  #link2ccapp p{
+    font-family: "Manrope";
+    font-size: 18px;
+    color: #2A2B2A;
+  }
+
+  #ccapp{
+    flex-grow: 5;
+    Background-color: #CB997E;
+  }
+
+  #ccapp h4{
+    font-family: "Manrope";
+    font-size: 24px;
+    color: #FFF1E6;
+    border: solid #FFF1E6 1px;
+  }
+
+  #ccapp p{
+    font-family: "Manrope";
+    font-size: 18px;
+    color: #F0EFEB;
+  }
+
+  #box8{
+    background-color: #EDDCD2;
+    margin: 150px;
+  }
+
+  #box8 img{
+    width: 40vw;
+    margin-left: 15vw;
+    padding: 30px;
+
+  }
+
+  #twentyone h1{
+    font-family: "Libre Baskerville";
+    font-size: 42px;
+    color: #F0EFEB;
+    margin-left: 50px;
+  }
+
+#cf h3{
+  font-family: "Libre Baskerville";
+  font-size: 30px;
+  color: #EDDCD2;
+  margin-left: 45vw;
+}
+
+#m{
+  display: flex;
+  margin: 150px;
+}
+
+#link2m{
+  flex-grow: 1;
+}
+
+#link2m p{
+  font-family: "Manrope";
+  font-size: 18px;
+  color: #2A2B2A;
+}
+
+#mwebsite{
+  flex-grow: 5;
+  Background-color: #626868;
+}
+
+#mwebsite h4{
+  font-family: "Manrope";
+  font-size: 24px;
+  color: #FFF1E6;
+  border: solid #FFF1E6 1px;
+}
+
+#mwebsite p{
+  font-family: "Manrope";
+  font-size: 18px;
+  color: #F0EFEB;
+}
+
+#da2{
+  display: flex;
+  margin: 150px;
+}
+
+#da2 h3{
+  font-family: "Libre Baskerville";
+  font-size: 30px;
+  color: #EDDCD2;
+  margin-left: 45vw;
+}
+
+#da2w{
+  flex-grow: 1;
+}
+
+#da2w p{
+  font-family: "Manrope";
+  font-size: 18px;
+  color: #2A2B2A;
+}
+
+#da2website{
+  flex-grow: 5;
+  Background-color: #626868;
+}
+
+#da2website h4{
+  font-family: "Manrope";
+  font-size: 24px;
+  color: #FFF1E6;
+  border: solid #FFF1E6 1px;
+}
+
+#da2website p{
+  font-family: "Manrope";
+  font-size: 18px;
+  color: #F0EFEB;
+}
+
+#ler{
+  display: flex;
+  margin: 150px;
+}
+
+#ler h3{
+  font-family: "Libre Baskerville";
+  font-size: 30px;
+  color: #EDDCD2;
+  margin-left: 45vw;
+}
+
+#linker{
+  flex-grow: 1;
+}
+
+#linkler p{
+  font-family: "Manrope";
+  font-size: 18px;
+  color: #2A2B2A;
+}
+
+#lerwebsite{
+  flex-grow: 5;
+  Background-color: #626868;
+}
+
+#lerwebsite h4{
+  font-family: "Manrope";
+  font-size: 24px;
+  color: #FFF1E6;
+  border: solid #FFF1E6 1px;
+}
+
+#lerwebsite p{
+  font-family: "Manrope";
+  font-size: 18px;
+  color: #F0EFEB;
+}
