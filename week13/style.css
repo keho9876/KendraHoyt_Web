@@ -1,0 +1,314 @@
+#resdate{
+   background-color: #F0EFEB;
+ }
+
+ #resume{
+   background-color: #F0EFEB;
+ }
+
+ #res p{
+   font-family: "Manrope";
+   font-size: 14px;
+   margin-left: 80%;
+   padding-top: 20px;
+ }
+
+ #res h3{
+   font-family: "Manrope";
+   font-size: 24px;
+   margin-left: 20%;
+ }
+
+ #stuff{
+  background-color: #626868;
+  margin-left: 100px;
+  margin-right: 100px;
+ }
+
+ #stuff h2{
+   font-family: "Cormorant Garamond";
+   font-size: 48px;
+   margin-left: 32%;
+   color: #DDBEA9;
+   padding-top: 20px;
+ }
+
+ #within{
+   display: flex;
+ }
+
+ #left{
+   flex-grow: 1;
+   padding-left: 55px;
+ }
+
+ #right{
+   flex-grow: 1;
+   /* margin-left: 250px; */
+   padding-right: 55px;
+ }
+
+#aboutme p{
+  font-family: "Manrope";
+  font-size: 20px;
+  color: #CB997E;
+}
+
+#tele p{
+  font-family: "Manrope";
+  font-size: 14px;
+  color: #FFF1E6;
+}
+
+#num p{
+  font-size: 14px;
+}
+
+#email p{
+  font-family: "Manrope";
+  font-size: 14px;
+  color: #FFF1E6;
+}
+
+#dres p{
+  font-size: 14px;
+}
+
+#address p{
+  font-family: "Manrope";
+  font-size: 14px;
+  color: #FFF1E6;
+}
+
+#place p{
+  font-size: 14px;
+}
+
+#education p{
+  font-family: "Manrope";
+  font-size: 20px;
+  color: #CB997E;
+}
+
+#twenthree p{
+  font-family: "Manrope";
+  font-size: 14px;
+  color: #FFF1E6;
+}
+
+#name p{
+  font-family: "Cormorant Garamond";
+  font-size: 18px;
+  color: #DDBEA9;
+}
+
+#uni p{
+  font-family: "Manrope";
+  font-size: 14px;
+  color: #FFF1E6;
+}
+
+#eiwteen p{
+  font-family: "Manrope";
+  font-size: 14px;
+  color: #FFF1E6;
+}
+
+#name2 p{
+  font-family: "Cormorant Garamond";
+  font-size: 18px;
+  color: #DDBEA9;
+}
+
+#high p{
+  font-family: "Manrope";
+  font-size: 14px;
+  color: #FFF1E6;
+}
+
+#swenteen p{
+  font-family: "Manrope";
+  font-size: 14px;
+  color: #FFF1E6;
+}
+
+#name3 p{
+  font-family: "Cormorant Garamond";
+  font-size: 18px;
+  color: #DDBEA9;
+}
+
+#sumsum p{
+  font-family: "Manrope";
+  font-size: 14px;
+  color: #FFF1E6;
+}
+
+#skills p{
+  font-family: "Manrope";
+  font-size: 20px;
+  color: #CB997E;
+}
+
+#skill p{
+  font-family: "Manrope";
+  font-size: 14px;
+  color: #FFF1E6;
+}
+
+#extras p{
+  font-family: "Manrope";
+  font-size: 20px;
+  color: #CB997E;
+}
+
+#extra1 p{
+  font-family: "Manrope";
+  font-size: 14px;
+  color: #FFF1E6;
+}
+
+#extra2 p{
+  font-family: "Manrope";
+  font-size: 14px;
+  color: #FFF1E6;
+}
+
+#references p{
+  font-family: "Manrope";
+  font-size: 20px;
+  color: #CB997E;
+}
+
+#mary p{
+  font-family: "Cormorant Garamond";
+  font-size: 18px;
+  color: #DDBEA9;
+}
+
+#numnum p{
+  font-family: "Manrope";
+  font-size: 14px;
+  color: #FFF1E6;
+}
+
+#job p{
+  font-family: "Manrope";
+  font-size: 14px;
+  color: #FFF1E6;
+}
+
+#tiff p{
+  font-family: "Cormorant Garamond";
+  font-size: 18px;
+  color: #DDBEA9;
+}
+
+#numnum2 p{
+  font-family: "Manrope";
+  font-size: 14px;
+  color: #FFF1E6;
+}
+
+#job2 p{
+  font-family: "Manrope";
+  font-size: 14px;
+  color: #FFF1E6;
+}
+
+#laura p{
+  font-family: "Cormorant Garamond";
+  font-size: 18px;
+  color: #DDBEA9;
+}
+
+#numnum3 p{
+  font-family: "Manrope";
+  font-size: 14px;
+  color: #FFF1E6;
+}
+
+#job3 p{
+  font-family: "Manrope";
+  font-size: 14px;
+  color: #FFF1E6;
+  margin-bottom: 100px;
+}
+
+#experience p{
+  font-family: "Manrope";
+  font-size: 20px;
+  color: #CB997E;
+}
+
+#yeear p{
+  font-family: "Manrope";
+  font-size: 14px;
+  color: #FFF1E6;
+}
+
+#como p{
+  font-family: "Cormorant Garamond";
+  font-size: 18px;
+  color: #DDBEA9;
+}
+
+#idid p{
+  font-family: "Manrope";
+  font-size: 14px;
+  color: #FFF1E6;
+}
+
+#time p{
+  font-family: "Manrope";
+  font-size: 14px;
+  color: #FFF1E6;
+}
+
+#lacys p{
+  font-family: "Cormorant Garamond";
+  font-size: 18px;
+  color: #DDBEA9;
+}
+
+#ido p{
+  font-family: "Manrope";
+  font-size: 14px;
+  color: #FFF1E6;
+}
+
+#when p{
+  font-family: "Manrope";
+  font-size: 14px;
+  color: #FFF1E6;
+}
+
+#sports p{
+  font-family: "Cormorant Garamond";
+  font-size: 18px;
+  color: #DDBEA9;
+}
+
+#icould p{
+  font-family: "Manrope";
+  font-size: 14px;
+  color: #FFF1E6;
+}
+
+#here p{
+  font-family: "Manrope";
+  font-size: 14px;
+  color: #FFF1E6;
+}
+
+#sato p{
+  font-family: "Cormorant Garamond";
+  font-size: 18px;
+  color: #DDBEA9;
+}
+
+#inever p{
+  font-family: "Manrope";
+  font-size: 14px;
+  color: #FFF1E6;
+}
