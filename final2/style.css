@@ -338,7 +338,7 @@
 }
 
 #numnum2 {
-  margin-left: 75px;
+  margin-left: 90px;
   font-family: "Manrope";
   font-size: 14px;
   color: #FFF1E6;
@@ -362,7 +362,7 @@
 }
 
 #numnum3 {
-  margin-left: 75px;
+  margin-left: 93px;
   font-family: "Manrope";
   font-size: 14px;
   color: #FFF1E6;
@@ -377,7 +377,7 @@
 
  #right{
    flex-grow: 1;
-   margin-left: 40px;
+   margin-left: 75px;
    margin-right: 80px;
  }
 
@@ -424,7 +424,7 @@
 }
 
 #time {
-  margin-left: 90px;
+  margin-left: 85px;
   font-family: "Manrope";
   font-size: 14px;
   color: #FFF1E6;
@@ -495,7 +495,7 @@
 
 #mennu{
   margin-left: 90px;
-  margin-right: 600px;
+  margin-right: 680px;
   padding-bottom: 20px;
   }
 
@@ -507,6 +507,7 @@
     font-family: "Manrope";
     font-size: 18px;
     color: #FFF1E6;
+    margin-left: 35px;
     padding: 10px 38px;
     text-decoration: none;
   }
@@ -592,6 +593,8 @@ color: #FFF1E6;
 padding: 10px 38px;
 text-decoration: none;
 }
+
+/* /////////////////////////// */
 
 #sf1{
   font-family: "Cormorant Garamond";
@@ -812,7 +815,6 @@ text-decoration: none;
 
   #blueblahimgs img{
     display: flex;
-    width: 25vw;
   }
 
   #blueone {
@@ -820,9 +822,17 @@ text-decoration: none;
     padding-left: 220px;
   }
 
+  #blueone img{
+    width: 25vw;
+  }
+
   #bluetwo {
     flex-grow: 1;
     padding-right: 220px;
+  }
+
+  #bluetwo img{
+    width: 25.75vw;
   }
 
   #bluethree {
@@ -885,7 +895,6 @@ text-decoration: none;
   #MAt{
     flex-grow: 1;
   }
-
 
 #menuu a{
 font-family: "Manrope";
@@ -1104,6 +1113,49 @@ text-decoration: none;
     margin-right: 380px;
   }
 
+  #rap18 {
+  background-color: #F0EFEB;
+  }
+
+  #heading18 h1{
+  font-family: "Cormorant Garamond";
+  font-size: 48px;
+  margin-left: 56vw;
+  padding-top: 40px;
+  margin-bottom: 10px;
+  color: #2A2B2A;
+  }
+
+  #heading18 p{
+  font-family: "Manrope";
+  font-size: 22px;
+  margin-left: 848px;
+  margin-bottom: 50px;
+  color: #2A2B2A;
+  }
+
+  #menuu18 nav{
+  border-bottom: solid #626868 1px;
+  margin-bottom: 60px;
+  }
+
+  #menuu18{
+    margin-left: 90px;
+    margin-right: 600px;
+    padding-bottom: 20px;
+  }
+
+  #menuu18 a{
+  font-family: "Manrope";
+  font-size: 18px;
+  color: #626868;
+  padding: 10px 38px;
+  margin-left: 35px;
+  text-decoration: none;
+  }
+
+/* /////////////////////////// */
+
   #twentyninteen h1{
   font-family: "Cormorant Garamond";
   font-size: 72px;
@@ -1126,6 +1178,7 @@ font-family: "Manrope";
 font-size: 18px;
 color: #626868;
 padding: 10px 38px;
+margin-left: 35px;
 text-decoration: none;
 }
 
@@ -1174,6 +1227,49 @@ text-decoration: none;
       margin-bottom: 40px;
     }
 
+    #rap19 {
+    background-color: #F0EFEB;
+    }
+
+    #heading19 h1{
+    font-family: "Cormorant Garamond";
+    font-size: 48px;
+    margin-left: 56vw;
+    padding-top: 40px;
+    margin-bottom: 10px;
+    color: #2A2B2A;
+    }
+
+    #heading19 p{
+    font-family: "Manrope";
+    font-size: 22px;
+    margin-left: 848px;
+    margin-bottom: 50px;
+    color: #2A2B2A;
+    }
+
+    #menuu19 nav{
+    border-bottom: solid #626868 1px;
+    margin-bottom: 60px;
+    }
+
+    #menuu19{
+      margin-left: 90px;
+      margin-right: 600px;
+      padding-bottom: 20px;
+    }
+
+    #menuu19 a{
+    font-family: "Manrope";
+    font-size: 18px;
+    color: #626868;
+    padding: 10px 38px;
+    margin-left: 35px;
+    text-decoration: none;
+    }
+
+    /* /////////////////////////// */
+
     #twentytwenty h1{
       font-family: "Cormorant Garamond";
       font-size: 72px;
@@ -1206,7 +1302,6 @@ text-decoration: none;
   margin-left: 70vw;
   margin-bottom: 60px;
 }
-
 
   #dt{
     display: flex
@@ -1412,6 +1507,49 @@ text-decoration: none;
   padding: 30px;
 }
 
+#rap20 {
+background-color: #F0EFEB;
+}
+
+#heading20 h1{
+font-family: "Cormorant Garamond";
+font-size: 48px;
+margin-left: 56vw;
+padding-top: 40px;
+margin-bottom: 10px;
+color: #2A2B2A;
+}
+
+#heading20 p{
+font-family: "Manrope";
+font-size: 22px;
+margin-left: 848px;
+margin-bottom: 50px;
+color: #2A2B2A;
+}
+
+#menuu20 nav{
+border-bottom: solid #626868 1px;
+margin-bottom: 60px;
+}
+
+#menuu20{
+  margin-left: 90px;
+  margin-right: 600px;
+  padding-bottom: 20px;
+}
+
+#menuu20 a{
+font-family: "Manrope";
+font-size: 18px;
+color: #626868;
+padding: 10px 38px;
+margin-left: 35px;
+text-decoration: none;
+}
+
+/* /////////////////////////// */
+
 #twentyone h1{
   font-family: "Cormorant Garamond";
   font-size: 72px;
@@ -1557,8 +1695,8 @@ text-decoration: none;
   color: #FFF1E6;
   border: solid #FFF1E6 1px;
   padding: 10px;
-  margin-left: 60px;
-  margin-right: 690px;
+  margin-left: 80px;
+  margin-right: 620px;
   text-align: center;
 }
 
@@ -1567,4 +1705,45 @@ text-decoration: none;
   font-size: 18px;
   color: #F0EFEB;
   margin-left: 180px;
+}
+
+#rap21 {
+background-color: #F0EFEB;
+}
+
+#heading21 h1{
+font-family: "Cormorant Garamond";
+font-size: 48px;
+margin-left: 56vw;
+padding-top: 40px;
+margin-bottom: 10px;
+color: #2A2B2A;
+}
+
+#heading21 p{
+font-family: "Manrope";
+font-size: 22px;
+margin-left: 876px;
+margin-bottom: 50px;
+color: #2A2B2A;
+}
+
+#menuu21 nav{
+border-bottom: solid #626868 1px;
+margin-bottom: 60px;
+}
+
+#menuu21{
+  margin-left: 90px;
+  margin-right: 600px;
+  padding-bottom: 20px;
+}
+
+#menuu21 a{
+font-family: "Manrope";
+font-size: 18px;
+color: #626868;
+padding: 10px 38px;
+margin-left: 35px;
+text-decoration: none;
 }

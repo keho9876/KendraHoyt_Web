@@ -794,7 +794,7 @@ text-decoration: none;
   margin-left: 50px;
 }
 
-#mennu{
+/* #mennu{
   margin-left: 100px;
   margin-right: 655px;
   padding-bottom: 100px;
@@ -810,7 +810,7 @@ text-decoration: none;
     color: #626868;
     padding: 10px 38px;
     text-decoration: none;
-  }
+  } */
 
   #da1{
     font-family: "Cormorant Garamond";
@@ -973,7 +973,6 @@ text-decoration: none;
     width: 40vw;
     margin-left: 15vw;
     padding: 30px;
-
   }
 
   #twentyone h1{
